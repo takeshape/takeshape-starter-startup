@@ -1,0 +1,13 @@
+.cache
+.env
+.githubtoken
+.graphqlconfig
+.graphqlrc
+.idea
+.netlify
+.tsgrc
+build
+graphql.config.json
+node_modules
+npm-debug.log
+tsg-project.graphql
