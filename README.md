@@ -9,7 +9,7 @@ This is a sample project to get you started building a static website with [Take
 
 1. Use the "Deploy to TakeShape" button to create the project in TakeShape.
 1. Set up and run the client application
-1. `git clone https://github.com/takeshape/takeshape-samples takeshape-samples && cd takeshape-samples/shape-portfolio`
+1. `git clone https://github.com/takeshape/takeshape-starter-startup`
 1. `npm install` - This will install all dependencies
     1. `npm run init` - A browser window should open, where you can log into or create a TakeShape account. If you encounter any errors in this process, run `npm run cli-init` to log into your account from the command line. Follow the command prompts to set up your local environment to communicate with TS.
     1. `npm run start` -  The server runs on [http://localhost:5000](http://localhost:5000) by default
