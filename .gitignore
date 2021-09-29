@@ -11,3 +11,5 @@ graphql.config.json
 node_modules
 npm-debug.log
 tsg-project.graphql
+.takeshaperc
+takeshape-project.graphql

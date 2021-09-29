@@ -19,16 +19,17 @@
     "node": ">= 8.10"
   },
   "scripts": {
-    "init": "tsg init",
+    "init": "takeshape login && takeshape link",
+    "cli-init": "takeshape login --cli-login && takeshape link",
     "serve": "browser-sync start --server build --port 5000 --files 'build/**/*' --reload-debounce",
-    "build": "tsg build -c",
-    "deploy": "tsg deploy",
-    "watch:tsg": "tsg watch -W -c",
+    "build": "takeshape build -c",
+    "deploy": "takeshape deploy",
+    "watch:takeshape": "takeshape watch -W -c",
     "watch": "npm-run-all --serial build && npm-run-all --continue-on-error --parallel watch:* serve",
     "start": "npm run watch"
   },
   "devDependencies": {
-    "@takeshape/cli": "^5.28.0",
+    "@takeshape/cli": "^7.210.0",
     "browser-sync": "^2.26.12",
     "eslint": "^5.16.0",
     "npm-run-all": "^4.1.5",
